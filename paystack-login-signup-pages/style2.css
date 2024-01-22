@@ -1,0 +1,125 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0c2843;
+    line-height: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 30px 0; */
+}
+header{
+    /* text-align: center; */
+    margin: 2.8em 0;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    background-color: #fff;
+    width: 94%;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 0 1.2em;
+    border-radius: 5px;
+    font-size: 1.7vh;
+}
+.head__title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: 300;
+}
+main .wrapper{
+    /* padding: 0.76em 0; */
+    line-height: 2.1em;
+    font-weight: 600;
+}
+.wrapper input,select{
+    width: 94%;
+    height: 30px;
+}
+
+.wrapper input::placeholder{
+    padding: 0 .8em;
+}
+.float p{
+    margin: 0 auto;
+    width: 88%;
+}
+.float label{
+    font-weight: 600;
+}
+.dev{
+    font-weight: 600;
+}
+.col{
+    display: flex;
+    align-items: center;
+}
+.col p{
+    padding-right: 3em;
+    letter-spacing: 2px;
+}
+.col span{
+    padding-left: 0.4em;
+}
+main .create__acct{
+    text-align: center;
+    text-transform: capitalize;
+    width: 97%;
+    border-radius: 4px;
+    background-color: #7fd096;
+    padding: 9px 0;
+    margin: .8em 0;
+}
+main .create__acct  a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+main .small{
+    font-size: .7rem;
+}
+main .small .blue__text{
+    color:#8ecae6;
+    cursor: pointer;
+}
+footer{
+    color: #fff;
+    margin-bottom: 1.3em;
+}
+footer span{
+    opacity: .7;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.support{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: #1b466e;
+    padding: 0px 11px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s;
+    color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+.support:hover{
+  opacity: .6;
+}

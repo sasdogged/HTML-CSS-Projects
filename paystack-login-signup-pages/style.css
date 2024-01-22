@@ -1,0 +1,91 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #0c2843;;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+header{
+    text-align: center;
+    margin-top: 26px;
+}
+ header a{
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 46px auto;
+}
+.login__section{
+    background-color: #fff;
+    width: 80%;
+    max-width: 400px;
+    padding: 40px 0;
+    border-radius: 4px;
+}
+.login__header{
+    color: #7fd096;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.login__section input{
+    width: 88%;
+    margin-left: 18px;
+    padding: 16px;
+    font-size: 1rem;
+    outline-color: #a8dadc;
+    border-width:thin;
+}
+ .login__link {
+    text-align: center;
+    background-color: #7fd096;
+    width: 88.6%;
+    margin: 0 auto;
+    margin-left: 18px;
+    padding: 18px 0;
+    border-radius: 6px;
+}
+.login__link:hover{
+    opacity: .7;
+}
+.login__link a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.links span{
+    opacity: .7;
+}
+footer{
+    position: fixed;
+    bottom: 2em;
+    right: 2.3em;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: #1b466e;
+    padding: 0px 11px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .6s;
+}
+footer p:hover{
+    opacity: .60;
+}
